@@ -1,0 +1,36 @@
+body{
+    /* de chieu ngang max cua toan bo trnag  */
+    max-width: 1500px; 
+    /* tu dong can chinh 2 ben */
+    margin: 0 auto;
+}
+.h{
+    display: flex;
+    justify-content: space-between;
+}
+.h img{
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.h a{
+    padding: 15px;
+
+    right:0;
+    margin-top: 75px;
+}
+.content{
+    margin: 0 auto;
+    max-width:1250px ;
+    display: flex;
+}
+.bentrai{
+    margin:30px;
+    width: 65%;
+}
+.benphai{
+    margin: 30px;
+    width: 25%;
+}
+.conten.bentrai.k{
+    right: inherit;
+}
