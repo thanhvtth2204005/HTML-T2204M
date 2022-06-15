@@ -1,0 +1,41 @@
+
+body{
+    width: 1000px;
+    margin:0 auto;
+}
+#conten{
+    display: flex;
+}
+#bentrai{
+    width: 25%;
+    margin-top: -90px;
+    margin-left: 20px;
+    background-color: rgb(212, 211, 211);
+}
+#d11{
+    border-bottom: 1px Solid black;
+    text-align: center;
+}
+#d12{
+    text-align: center;
+}
+#benphai{
+    width: 75%;
+    margin-left: 20px;
+}
+#top{
+    height: 80px;
+    background-color: rgb(141, 118, 245);
+    margin: 10px 0;
+}
+h1{
+    text-align: center;
+    letter-spacing: 5px;
+    
+}
+#top1{
+    text-align: center;
+}
+#d22{
+    border-bottom: 1px solid black;
+}
