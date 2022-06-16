@@ -5,6 +5,7 @@ body{
 }
 #conten{
     display: flex;
+    background-color: aliceblue;
 }
 #bentrai{
     width: 25%;
@@ -14,27 +15,28 @@ body{
 }
 #d11{
     border-bottom: 1px Solid black;
-    text-align: center;
+    padding: 35px;
 }
 #d12{
-    text-align: center;
+    padding: 35px;
 }
 #benphai{
     width: 75%;
     margin-left: 20px;
+   
 }
 #top{
-    height: 80px;
-    background-color: rgb(141, 118, 245);
+    height: 100px;
+    background-color: rgb(194, 190, 209);
     margin: 10px 0;
 }
-h1{
+#h1top{
     text-align: center;
-    letter-spacing: 5px;
-    
+    transform: translate(15px,15px);
 }
 #top1{
     text-align: center;
+    margin-top: -5px;
 }
 #d22{
     border-bottom: 1px solid black;
