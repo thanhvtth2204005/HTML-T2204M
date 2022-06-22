@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="/css/form agm.css">
+</head>
+<body>
+    <section class="section main">
+        <div class="container">
+            <form method="get" action="#">
+                <h3>Create task</h3>
+                    <div>
+                        <label><input required name="type" type="text" placeholder="Type"></label>    
+                    </div>
+                <div class="flex">
+                    <div>
+                        <label>
+                            <select required name="Company">
+                                <option value="FPT">FPT</option>
+                                <option value="F8-Shop">F8-Shop</option>
+                                <option value="Vinova">Vinova</option>
+                                <option value="FPT Software">FPT Software</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="Opportunity">
+                        <label class="label-1">
+                            <select name="Opportunity">
+                                <option value="1">10%</option>
+                                <option value="2">20%</option>
+                                <option value="3">30%</option>
+                                <option value="4">40%</option>
+                                <option value="5">50%</option>
+                                <option value="6">60%</option>
+                                <option value="7">70%</option>
+                                <option value="8">80%</option>
+                                <option value="9">90%</option>
+                                <option value="10">100%</option>
+                            </select>
+                            <p><i>Optional</i></p>
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <label><input type="text" placeholder="Task name"></label>
+                </div>
+                <div class="CC">
+                    <label class="label-1">
+                        <input name="CC" type="text" placeholder="CC">
+                        <p><i>Optional</i></p>
+                    </label>
+                </div>
+                <div class="flex2">
+                    <div class="d1">
+                        <h5>Nature of request</h5>
+                        <div class="checkbox-group">
+                            <label><input name="Nature of request" type="checkbox">Ads review</label>
+                            <label><input name="Nature of request" type="checkbox">Keywords review</label>   
+                            <label><input name="Nature of request" type="checkbox">Extensions review</label>    
+                        </div>
+                    </div>
+                    <div class="d2">
+                        <h5>Current reviewable status</h5>
+                        <div class="radio-group">
+                            <label><input name="Current reviewable status" type="radio" value="Approved">Approved</label>
+                            <label><input name="Current reviewable status" type="radio" value="Not approved">Not approved</label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
