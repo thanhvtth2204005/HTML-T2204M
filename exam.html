@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/exam.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <section class="section main">
+        <div class="container">
+            <div class="p1">
+                <p>CPISM</p>
+            </div>
+                <img class="img1" src="https://aptech.fpt.edu.vn/wp-content/uploads/2020/11/logo.png" alt="">
+            <div class="title">   
+                <h3>Practical exam paper for HCJS - HTML5, CSS, JavaScript</h3>
+                <p>Duration: 60 minutes | Total Marks: 25</p>
+            </div> 
+                <p class="p2">Design a web page which has an interface as shown below.</p>
+            <div class="box">
+                <div class="box-1">
+                    <ion-icon class="icon" name="arrow-forward"></ion-icon>
+                    <p>Check out Form</p>
+                </div>
+                <div class="p3">
+                    <p>Total To Pay</p>
+                    <p class="p3-1"> <b> 93</b></p>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="visa">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNh9JP8wddSKpa-KOzlxbQrnuWhLsXBskatw&usqp=CAU" alt="">
+                </div>
+                <div class="paypal">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV4ttvMrms4Yn_2pX9I39KawFggXiZKHXHvA&usqp=CAU" alt="">
+                </div>
+            </div>
+            <form class="form-ct" action="" method="get">
+                <label for="name">Name on Card<input type="text" name="fullname" id="" placeholder="Jonh Smith" required></label>
+
+                <div class=" d-flex row justify-content-between">
+                    <label class="col-6" for="Cnumber">Card Number<input type="number" name="cardnumber" placeholder="015464315344456"></label>
+                    <label class="col-5" for="CVV">CVV <input type="number" min="100" max="999" required></label>
+                </div>
+                <label for="date">Expiration Date <input type="date" name="date" id=""></label>
+
+                <button class="btn-submit" type="submit">Make A Payment</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
