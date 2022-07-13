@@ -1,0 +1,49 @@
+.container{
+    font-size: 20px;
+    float: none;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+}
+.row{
+    width: 800px;
+}
+.letf-img{
+    width: 100px;
+    object-fit: cover;
+    margin-top: -10px;
+}
+.temp{
+    font-size: 70px;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.letf{
+    display: flex;
+    line-height: 0.5;
+    font-size: 15px;
+}
+.t-3{
+    display: flex;
+    margin-top: 11px;
+    margin-left: 5px;
+}
+.space{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.t-4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.t-5{
+    text-align: right;
+    font-size: 15px;
+    line-height: 0.5;
+}
+.right{
+    float: right;
+}
