@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="/css/demobootstrap.css">
+<body>
+    <section class="section" *ngIf="list">
+        <div class="container">
+          <div class="row" id="forecast">
+            <div class="col-3">
+              <div class="col-content" *ngFor="let f of list;">
+                <h3>{{f.dt_txt}}</h3>
+                <h2>{{f.main.temp}}<sup>o</sup>C</h2>
+                <p>{{f.weather[0].description}}</p>
+                <img src="http://openweathermap.org/img/wn/{{f.weather[0].icon}}@2x.png"/>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      </section> 
+</body>
+
+<style>
+  body{
+    background-image: url("/AngularCLI/demoagl/src/assets/img/anime-sky-cloud-clouds-wallpaper-preview.jpeg");
+    background-size: cover;
+}
+.col-content{
+    float:left;
+    width: 100%;
+    color: #ffffff;
+    background-color: #6c757d85;
+    padding: 20px;
+    margin: 15px 0;
+    height: 180px;
+    border-radius: 6px;
+}
+.col-content h3{
+    font-size: 18px;
+}
+.col-content p{
+    font-size: 15px;
+}
+.col-content img{
+    transform: translate(150px,-100px);
+}
+</style>
+

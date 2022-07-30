@@ -1,0 +1,31 @@
+
+
+
+
+<hr>
+<h1>Đây là danh sách học sinh lớp {{className}}</h1>
+
+<button type="button" (click)="changeName()">Change Name</button>
+
+<app-Student *ngFor="let sv of studentArray" [data]="sv" ></app-Student>
+
+<h2>Trạng thái hoạt động của lớp: 
+    <!-- directive : điều khiển luồng hoạt động -->
+    <span *ngIf="classStatus">Hoạt động</span>
+    <span *ngIf="!classStatus">Nghỉ</span>
+</h2>
+<button type="button" (click)="changeStatus()">Chuyển trạng thái</button>
+<h2>Danh sách giáo viên:</h2>
+
+<ol>
+    <li *ngFor="let t of teacherName;let i=index;"> <!-- for i=0 ; i< teacherName.length ; i++ -->
+        {{teacherName[i]}}
+    </li>
+</ol>
+
+<h2>Danh sách môn học:</h2>
+<ol>
+     <li *ngFor="let s of subjectName;"> <!-- s : chính là phần tử thứ i của mảng , thay vì dùng subjectName thì có thể dùng s . mục đích là để gọn code hơn-->
+        {{s}}
+    </li>
+</ol>
